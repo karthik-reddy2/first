@@ -1,0 +1,53 @@
+div {
+    display: flex;
+    justify-content: space-around;
+}
+form {
+    margin-top: 100px;
+    width: 30%;
+    padding: 30px;
+    border: 1px solid black;
+}
+label {
+    font-size: 20px;
+
+
+}
+table {
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 60%;
+
+    margin-top: 100px;
+    text-align: center;
+}
+table td, table th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+
+}
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: lightpink;
+    color: whitesmoke;
+}
+input[type= "text"],input[type= "number"] ,select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius:  4px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+input[type="submit"]{
+    background-color: lightsalmon;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+}
